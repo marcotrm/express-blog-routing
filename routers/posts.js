@@ -60,14 +60,17 @@ const posts =
             });
             // update
             router.put('/:id', (req, res) => {
-                res.send('Modifica integrale del post');
+              const postId = req.params.id
+                res.send(`Modifica integrale del post ${postId}`);
             });
             // modify
             router.patch('/:id', (req, res) => {
-                res.send('Modifica parziale del post')
+              const postId = req.params.id
+                res.send(`Modifica parziale del post ${postId}`)
             });
             // destroy
             router.delete('/:id', (req, res) => {
-                res.send('Eliminazione del post');
+              const postId = req.params.id
+                res.send(`Eliminazione del post ${postId}`);
         });
 module.exports = router;
