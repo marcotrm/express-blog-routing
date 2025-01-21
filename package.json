@@ -1,0 +1,23 @@
+{
+  "name": "express-blog-routing",
+  "version": "1.0.0",
+  "description": "blog personale",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "watch": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcotrm/express-blog-routing.git"
+  },
+  "author": "Marco Torremacco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcotrm/express-blog-routing/issues"
+  },
+  "homepage": "https://github.com/marcotrm/express-blog-routing#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
