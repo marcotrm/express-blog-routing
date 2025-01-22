@@ -1,5 +1,5 @@
 {
-  "name": "express-blog-routing",
+  "name": "express-blog-intro",
   "version": "1.0.0",
   "description": "blog personale",
   "main": "app.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcotrm/express-blog-routing.git"
+    "url": "git+https://github.com/marcotrm/express-blog-intro.git"
   },
   "author": "Marco Torremacco",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marcotrm/express-blog-routing/issues"
+    "url": "https://github.com/marcotrm/express-blog-intro/issues"
   },
-  "homepage": "https://github.com/marcotrm/express-blog-routing#readme",
+  "homepage": "https://github.com/marcotrm/express-blog-intro#readme",
   "dependencies": {
     "express": "^4.21.2"
   }
